@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    padding:5px;
+    width: 80%;
+    margin:0 auto;
+  }
+  .textContainer{
+  margin-left: 10px;
+  }
+  .title{
+      margin-right: 35px;
+  }
+
+
+  .titleRating {
+      display: flex;
+      justify-content:flex-start;
+      text-align:left;
+      align-items:flex-start;
+
+  }
+  .rruntime{
+      background-color: rgb(211, 205, 205);
+      text-align: center;
+      padding: 5px;
+      width:60px;
+      margin-left:0;
+      margin-right:25px ;
+      border:gray solid 1px;
+      border-radius: 5px;
+  }
+  .genre{
+      background-color: rgb(211, 205, 205);
+      text-align: center;
+      padding: 5px;
+      width:200px;
+      border:gray solid 1px;
+      border-radius: 5px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
